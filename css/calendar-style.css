@@ -1,0 +1,16 @@
+.slider-container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    border: 3px sold red;
+    margin:  auto;;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  }
